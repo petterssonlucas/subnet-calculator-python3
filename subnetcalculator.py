@@ -25,7 +25,7 @@ while True:
             ipList.append(dotRm)
             dotRm = ''
 
-        if i in alphabet:
+        if i.lower() in alphabet:
             incorrectOctet = True
             reason = 'letter'
         if i in negativeValue:
